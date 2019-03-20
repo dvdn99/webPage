@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <title>David Novizky - first page</title>
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+
 </head>
-<body  style="background-color:#ffff99;">
-<h1>David Novizky</h1>
-<h3>My Favorite Movie </h3>
+<body>
+<header>
+    <h1>David Novizky</h1>
+    <h3>My Favorite Movie </h3>
+</header>
+
 
 <li><b><a href="https://www.imdb.com/title/tt0175142/?ref_=fn_al_tt_2">Scary Movie</a></b> <i>Keenen Ivory Wayans, 2000</i> </li>
 <img src="https://images-na.ssl-images-amazon.com/images/I/5123WET5P4L._SY445_.jpg" alt="movie pic"  width="300" height="400"/>
@@ -21,6 +22,8 @@
 
 <li><b><a href="https://www.imdb.com/title/tt0075148/?ref_=fn_al_tt_1">Rocky</a></b> <i>John G. Avildsen, 1976</i></li>
 <img src="https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="movie pic" width="300" height="400"/>
+
+<br>
 
 <table style="width:100%">
     <tr>
@@ -39,6 +42,56 @@
         <td>45</td>
     </tr>
 </table>
+
+<p>
+    <label>Name:
+    <input name="name" type="text" size="23" maxlength="30">
+        <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="נקה">
+        </p>
+<br><br>
+    <label>Comments:
+        <textarea name="comments" rows="4" cols="36">Enter comments here.</textarea>
+    </label>
+
+<p>
+    <label>Password:
+    <input name="pass" type = "password" size="25">
+    </label>
+</p>
+<p>
+    <label>E-Mail:
+        <input name="pass" type = "email" size="25">
+    </label>
+</p>
+
+<p>
+    <strong>Things you liked:</strong><br>
+    <label>Site Design
+        <input name ="thingsiliked" type="checkbox" value="design">
+    </label>
+    <label>Colors
+        <input name ="thingsiliked2" type="checkbox" value="colors">
+    </label>
+
+</p>
+
+<p>
+    <strong>Tips:</strong><br>
+    <label>Improve Colors
+        <input name="howtosite" type="radio" value="impcolors" checked>
+    </label>
+    <label>Improve Fonts
+        <input name="howtosite" type="radio" value="impfonts">
+    </label>
+
+</p>
+
+<br>
+<footer> <h5> © All rights reserved </h5> </footer>
+
+
 
 </body>
 </html>
